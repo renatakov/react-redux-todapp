@@ -1,0 +1,25 @@
+.todoTask{
+    font-family: "Roboto", sans-serif;
+    border: 1px solid #9c7878;
+    width: 30%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.todoTask > button{
+    background: none;
+    border: 1px solid #616161;
+    font-family: "Roboto", sans-serif;
+    border-radius: 3px;
+    padding: 5px 20px;
+    transition: 1s;
+}
+
+.todoTask > button:hover{
+    background-color: #86ba9e;
+}
